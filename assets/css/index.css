@@ -1,0 +1,271 @@
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*  Fonts  */
+@font-face {
+    font-family: 'opensans-regular';
+    src: url('../fonts/opensans-regular.eot');
+    src: url('../fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular.woff') format('woff'),
+         url('../fonts/opensans-regular.ttf') format('truetype'),
+         url('../fonts/opensans-regular.svg#opensans-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*  General CSS*/
+body {
+    font-size: 100%;
+}
+
+
+/*  HEADER*/
+.header {
+    background: url(../img/Background-header.jpg) no-repeat center top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-menu {
+    font-size: 1.250em;
+    border-bottom: 0.050em solid rgb(255, 255, 255);
+    margin-bottom: 100px;
+    width: 92.5%;
+}
+
+
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+    text-transform: uppercase;
+    line-height: 1.2;
+
+}
+
+
+.menu__item {
+    list-style: none;
+    margin-right: 45px;
+}
+.menu__link {
+    color: rgb(241, 241, 241);
+    text-decoration: none;
+}
+
+.details-header__title {
+    font-size: 50px;
+    font-family: "NexaBold";
+    color: rgb(241, 241, 241);
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 130px;
+}
+.scroll {
+    font-size: 18px;
+    font-family: "NexaBold";
+    color: rgb(241, 241, 241);
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 2.889em;
+}
+.fas {
+    width: 32px;
+    height: 32px;
+}
+.about {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 175px;
+
+}
+
+.about__img {
+    margin-right: 50px;
+    height:auto;
+    width: 40.1%;
+
+    flex: 1 1 40.1%;
+}
+.content-about {
+    flex: 1 0 35.15%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.content-about__title {
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(32, 32, 32);
+    text-transform: uppercase;
+    line-height: 2;
+
+}
+
+.content-about__text {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(32, 32, 32);
+    line-height: 2.083;
+}
+.content-about__scroll {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(241, 241, 241);
+    text-transform: uppercase;
+    line-height: 1.2;
+
+}
+
+
+/*  SERVICES*/
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+background: url(../img/Background-portfolio.jpg) no-repeat center top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+.portfolio__title {
+    font-size: 60px;
+    font-family: "NexaLight";
+    color: rgb(241, 241, 241);
+    text-transform: uppercase;
+    line-height: 2;
+    margin-top: 190px;
+}
+
+.portfolio__list {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.portfolio__item {
+    display: block;
+
+}
+.portfolio__scroll{
+    font-size: 18px;
+    font-family: "NexaBold";
+    color: rgb(241, 241, 241);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+
+.content-about__signature{
+    font-size: 36px;
+    font-family: 'Averia Sans Libre', cursive;
+    color: rgb(32, 32, 32);
+    line-height: 1.389;
+
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact__mail {
+    margin-top: 303px;
+    font-family: "NexaBold";
+    color: rgb(32, 32, 32);
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.mail-contact__title {
+    font-size: 30px;
+    line-height: 4;
+}
+.mail-contact__text {
+    font-size: 60px;
+    line-height: 2;
+}
+.contact__phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phone-contact__title {
+    font-size: 30px;
+    line-height: 4;
+}
+.phone-contact__text {
+    font-size: 48px;
+    line-height: 2.5;
+}
+.contact__socials {
+    font-size: 30px;
+    line-height: 4;
+    text-align: center;
+
+}
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0;
+
+}
+.socials__link {
+    height: 57px;
+    width: 57px;
+    margin-right: 5px;
+
+
+}
+.socials__link--fb {
+    background-image: url(../img/social/Facebook.png);
+}
+.socials__link--tw {
+    background-image: url(../img/social/Twitter.png);
+}
+.socials__link--in {
+    background-image: url(../img/social/Instagram.png);
+    margin-right: 0;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
