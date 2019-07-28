@@ -111,7 +111,7 @@ $panel.each(function () {
 					slide[i].addEventListener('mouseover', function(e) {
 						var slideImg = this.querySelector('img');
 						var slideHeihg = slideImg.clientHeight - this.clientHeight;
-						console.log(slideHeihg);
+						
 						 slideImg.style.marginTop = "-" + slideHeihg + "px";
 					}, false);
 					slide[i].addEventListener('mouseout', function(e) {
