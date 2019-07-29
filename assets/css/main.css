@@ -1567,11 +1567,15 @@ right: 0;
 	visibility: visible;
 	background: #ff214f;
 }
-
+.swiper-wrapper,
+.swiper-container {
+	z-index: unset;
+}
 .swiper-button {
 	top: 10%;
 	left: auto;
 	background-image: none;
+	z-index: unset;
 }
 .swiper-button i {
 	font-size: 35px;
@@ -1642,7 +1646,8 @@ right: 0;
 	.swiper-wrapper {
     display: block;
     overflow-y: auto;
-    overflow-x: hidden;
+	overflow-x: hidden;
+	
 }
 .swiper-slide {
 	width: 100%;
